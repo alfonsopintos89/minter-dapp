@@ -1,22 +1,22 @@
 const contractAddress = "0x721AA996a9A056Fd015584B763783718B7243e48"; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
-const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
-const h1_presale_mint = "Pre-Sale Minting Open!!";
-const h1_public_mint = "Public Minting Open!!";
-const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
-const h2_presale_mint = "Public Minting Countdown";
-const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for updates!";
-const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
-const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! 🎉";
-const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you! 🎉";
-const p_public_mint = "No whitelist needed. Public minting is now open! 🎉";
-const button_presale_coming_soon = "Get on the Whitelist";
-const button_presale_mint_whitelisted = "Mint Your Special NFT";
+const welcome_h1 = "Bienvenido a Digital Wines Club, tu puerta de entrada al mundo del vino!!";
+const welcome_h2 = "Conectate a MetaMask Para comenzar";
+const welcome_p = 'Únete a la comunidad de vino más exclusiva del mundo. Obtén beneficios exclusivos con la compra de uno de nuestros 3.000 NFTs y forma parte de la creación de nuestra propia linea de vinos! conoce más en: <a href="https://digitalwinesclub.com"  target="_blank" rel="noopener noreferrer"></a> Digital Wines Club';
+const h1_presale_coming_soon = "NFT Drop Proximamente!!";
+const h1_presale_mint = "Pre-venta Pública abierta!!";
+const h1_public_mint = "Minteo Público abierto!!";
+const h2_presale_coming_soon = "Proximamente!";
+const h2_presale_mint = "Tiempo para la pre-venta";
+const p_presale_coming_soon = "Estamos trabajando para que tengas la mejor colección NFT. Mantente informado para las actualizaciones!";
+const p_presale_mint_not_whitelisted = "No estás en la whitelist para la pre-venta... 😢";
+const p_presale_mint_whitelisted = "Ya estás en la whitelist para la pre-venta! 🎉";
+const p_presale_mint_already_minted = "Ta solicitastea acceso a la whitelist. Gracias! 🎉";
+const p_public_mint = "El Minteo está abierto para todo público. 🎉";
+const button_presale_coming_soon = "Acceder a la Whitelist";
+const button_presale_mint_whitelisted = "Mintea tu NFT";
 const button_presale_mint_not_whitelisted = "Get on the Whitelist";
-const button_presale_already_minted = "Join The Community";
-const button_public_mint = "Mint Your NFT";
-const mint_failed = "Minting failed. 😢 Please try again.";
+const button_presale_already_minted = "Únete a la comunidad";
+const button_public_mint = "Mintea tu NFT";
+const mint_failed = "Mintea fallida. 😢 Intenta de nuevo por favor.";
