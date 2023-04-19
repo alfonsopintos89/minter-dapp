@@ -7,20 +7,15 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Digital Wines Club";
-const description = "La primera comunidad digital de vinos del mundo";
+const namePrefix = "Digital Magic Dragons";
+const description = "Digital Magic Dragons, one of a kind";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 30,
+    growEditionSizeTo: 15,
     layersOrder: [
-      { name: "Escenario" },
-      { name: "Fondos" },
-      { name: "Apoyos" },
-      { name: "Botellas" },
-      { name: "Copas" },
-      { name: "Elementos" },
+      { name: "Dragons" },
     ],
   },
 ];
@@ -36,7 +31,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://digitalwinesclub.com", // Replace with your website or remove this line if you do not have one.
+  //external_url: "https://digitalwinesclub.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -47,13 +42,13 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Digital Wines Club';
-const CONTRACT_SYMBOL = 'DWC';
+const CONTRACT_NAME = 'Digital Magic Dragons';
+const CONTRACT_SYMBOL = 'DMD';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x0a00A667f282F8f37887f706278db9E07BC40003';
 const TREASURY_ADDRESS = '0x0a00A667f282F8f37887f706278db9E07BC40003';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.0001; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.0001; // Minting price per NFT. Goerli npm = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -68,13 +63,13 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x721AA996a9A056Fd015584B763783718B7243e48"; // If you want to manually include it
+let CONTRACT_ADDRESS = ""; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Bienvenido al club, cuál NFT será el tuyo?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/Qma8Zxn4k3e1Hoz5QvgHF1XDQwGB2HzkwRwhR4zFkWTSyz?filename=generic.png"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "Which dragon will you get?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmVE4rshcc1Ji53S7kaGfjWJ1EyJa7T6iRmQt6euJe4jp8?filename=DragonGen.png"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {

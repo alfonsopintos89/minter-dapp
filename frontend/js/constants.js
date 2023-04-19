@@ -1,9 +1,9 @@
-const contractAddress = "0x721AA996a9A056Fd015584B763783718B7243e48"; // Replace with your own contract address
+const contractAddress = "0xF81fC182FbccB946aB9c8deBb7a779A7d4C9c093"; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
-const welcome_h1 = "Bienvenido a Digital Wines Club, tu puerta de entrada al mundo del vino!!";
+const welcome_h1 = "Bienvenido a Digital Magic Dragons";
 const welcome_h2 = "Conectate a MetaMask Para comenzar";
-const welcome_p = 'Únete a la comunidad de vino más exclusiva del mundo. Obtén beneficios exclusivos con la compra de uno de nuestros 3.000 NFTs y forma parte de la creación de nuestra propia linea de vinos! conoce más en: <a href="https://digitalwinesclub.com"  target="_blank" rel="noopener noreferrer"></a> Digital Wines Club';
+const welcome_p = 'Digital Magic Dragons';
 const h1_presale_coming_soon = "NFT Drop Proximamente!!";
 const h1_presale_mint = "Pre-venta Pública abierta!!";
 const h1_public_mint = "Minteo Público abierto!!";
