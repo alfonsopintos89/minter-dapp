@@ -37,7 +37,7 @@ const extraMetadata = {
 // NFTPort Info
 
 // ** REQUIRED **
-const AUTH = "ae0165e4-d3fa-4211-8f96-7fca73b3a6b2"; // Set this in the .env file to prevent exposing your API key when pushing to Github
+const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
