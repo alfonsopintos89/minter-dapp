@@ -1,4 +1,4 @@
-const contractAddress = "0xF81fC182FbccB946aB9c8deBb7a779A7d4C9c093"; // Replace with your own contract address
+const contractAddress = ""; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Bienvenido a Digital Magic Dragons";
